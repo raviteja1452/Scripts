@@ -1,0 +1,1 @@
+tmux new-session -d -s random_volume './random_volume.sh'
