@@ -1,2 +1,2 @@
 # Scripts
-Random scripts (Python , Javascript, Php)
+Random scripts (Python , Javascript, Php, Shell)
