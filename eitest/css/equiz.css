@@ -1,0 +1,172 @@
+body{
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+
+/*Outer CSS*/
+.outer-box{
+    width:1280px;
+    margin:0px;
+    background-color:#50d2c2;
+}
+.inner-box{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	min-height: 100%;
+	padding:50px 40px;
+    margin-left:100px;
+    margin-right:100px;
+    background:whitesmoke;
+}
+.ehead{
+	text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing:2px;
+    padding: 0 20 20 20;
+    color:cornflowerblue;
+}
+.ehead span{
+	color: crimson;
+    font-size: 25;
+    font-weight: bold;
+}
+.ename {
+	padding:30px;
+}
+.ename div{
+	padding-bottom:10px;
+}
+.ename input{
+	margin: 0;
+    height: 35px;
+    border-radius: 4px;
+    padding-left: 6px;
+    font-size: 13px;
+    border-width: 0;
+    width: 200px;
+}
+
+/*Questoinare CSS*/
+
+.equestions{
+	padding: 0 30 0 30;
+	display:none;
+}
+.qhead{
+	padding: 0 0 20 0;
+}
+.qitem{
+	display:none;
+	margin: 10px;
+    padding: 15 10 15 10 ;
+    background: #e4e4e4;
+    border-radius: 4px;
+}
+.qitem .iques{
+	padding:0 0 15 0;
+}
+.qitem .ians{
+	padding: 0 0 10 0;
+}
+
+/*Graph CSS*/
+.egraph{
+	display:none;
+	padding: 20 30 0 30;
+}
+.g-out{
+	margin-top: 15px;
+    height: 100px;
+    border-radius: 5px;
+    background: white;
+    text-align:center;
+}
+.g-in{
+	margin-top: 30px;
+    width: 500px;
+    border-radius: 4px;
+    height: 40px;
+    display: inline-block;
+    background: lemonchiffon;
+}
+.g-correct{
+	vertical-align: top;
+	height: 40px;
+    width:100px;
+    line-height: 40px;
+    font-size: 15px;
+    color: white;
+    display:inline-block;
+    background: yellowgreen;
+    border-radius: 4px 0 0 4px;
+    text-align: center;
+}
+.g-wrong{
+	vertical-align: top;
+	height: 40px;
+    width:100px;
+    line-height: 40px;
+    font-size: 15px;
+    color: white;
+    display:inline-block;
+    background: #efb3b3;
+    border-radius: 0 4px 4px 0;
+    text-align: center;
+}
+
+.submit-outer{
+	text-align:center;
+	display:none;
+}
+
+#qsubmit{
+	text-align: center;
+    width: 200px;
+    height: 45px;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    background: #50d2c2;
+    line-height: 45px;
+}
+
+/*Result CSS*/
+
+.eresult{
+	padding: 20 30 0 30;
+	display:none;
+}
+.result-out{
+	margin-top: 15px;
+    min-height: 300px;
+    border-radius: 5px;
+    background: white;
+}
+.result-col{
+	display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    width: 225px;
+}
+.result-item{
+	text-align:center;
+	height: 30px;
+    border-radius: 4px;
+    line-height: 30px;
+    padding: 10px;
+}
+.result-top{
+	color: cornflowerblue;
+	background: #b9efe8;
+}
+.result-correct{
+	background: #d8f3d8;
+}
+.result-wrong{
+	background:#f9eeee;;
+}
