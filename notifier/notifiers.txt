@@ -1,4 +1,4 @@
-2016-11-28-11-00 %%% Hi %%% Its your birthday %%%
-2016-11-29-11-00 %%% Hi %%% Its your birthday %%%
-2016-11-29-10-00 %%% Hi %%% Good Morning %%%
-2016-11-29-12-00 %%% Hi %%% Good Morning %%%
+5/12/2016 11:00:00 PM ; Hi ; Its your birthday ;
+4/12/2016 01:00:00 AM; Hi ; Its your birthday ;
+3/12/2016 10:00:00 PM ; Hi ; Good Morning ;
+3/12/2016 11:00:00 AM ; Hi ; Good Morning ;
