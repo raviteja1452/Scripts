@@ -11,6 +11,7 @@ class timer:
         while (True):
             self.calculate()
             t = randint(3600,10000)
+            print 'sleep for:',t
             time.sleep(t)
 
     def calculate(self):
@@ -23,7 +24,7 @@ class timer:
         nextDiff = next - now
         nextDiff = str(self.chop_microseconds(nextDiff))
         noti = prevDiff+"\n"+nextDiff
-        message = "osascript -e 'display notification \""+noti+"\" with title \""+nowStr+"\" sound name \"Submarine\"'"
+        message = "reattach-to-user-namespace osascript -e 'display notification \""+noti+"\" with title \""+nowStr+"\" sound name \"Submarine\"'"
         os.system(message)
 
     def chop_microseconds(self, delta):
